@@ -5,9 +5,7 @@ name: Cloning
 
 env:
   GIT_URL: https://github.com/Kirin420/GetProCommitNumber
-  BOTUN: ${{ secrets.BOTUN }}
-  BOTKEY: ${{ secrets.BOTKEY }}
-  USERKEY: ${{ secrets.USERKEY }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
