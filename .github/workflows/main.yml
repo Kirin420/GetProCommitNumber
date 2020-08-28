@@ -27,6 +27,7 @@ jobs:
          continue-on-error: true
          timeout-minutes: 2
          run: |
+              cd bruh/bruh
               echo "69" >> var.txt
               
        - name: commit
