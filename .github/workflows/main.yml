@@ -1,7 +1,7 @@
 name: Cloning
 
 
-#on: [push] 
+on: [push] 
 
 env:
   GIT_URL: https://github.com/Kirin420/GetProCommitNumber
