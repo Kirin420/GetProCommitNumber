@@ -27,14 +27,14 @@ jobs:
          continue-on-error: true
          timeout-minutes: 2
          run: |
-              echo "69" >> bruh.txt
+              echo "69" >> var.txt
               
        - name: commit
          continue-on-error: true
          run: |
               cd bruh/bruh
-              git add .
-              git commit -m "Loop workflow"
+              git add var.txt
+              git commit -m "Add a variable"
        
        - name: commit it finally
          run: |
