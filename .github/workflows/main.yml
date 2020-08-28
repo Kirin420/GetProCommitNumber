@@ -15,6 +15,7 @@ jobs:
          uses: actions/checkout@master
        
        - name: Clone your code
+         timeout-minutes: 2
          run: | 
               sudo -E apt-get -qq update
               sudo -E apt-get -qq install git expect
